@@ -1,0 +1,14 @@
+{
+  "name": "Inject Script To page",
+  "description": "Inject a script from file to page",
+  "version": "2.0",
+    "permissions": ["*://*/*"],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "browser_action": {
+    "default_title": "Send this page content"
+  },
+  "manifest_version": 2
+}
